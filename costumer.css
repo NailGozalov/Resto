@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+.bacground_testi{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.testi_img{
+    position: relative;
+    width: 100%;
+    top: -160px;
+}
+
+
+.costumer_img_cover{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.156);
+    padding-top: 100px;
+    height: 670px;
+    position: absolute;
+    top: 0;
+}
+
+.cover_head>h3{
+    color: #f34949;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cover_head>h2{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+
+.slide_1{
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+}
+.slide_2{
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.slide_icon{
+    font-size: 70px;
+    color: white;
+}
+
+.slide_1>h2{
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.slide_2>h2{
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.slide_1>h3{
+    color: white;
+}
+.slide_2>h3{
+    color: white;
+}
+.slide_end{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15;
+}
+
+.slide_end>h3{
+    color: white;
+    font-weight: 100;
+    margin-right: 7px;
+}
+
+.slide_end>h4{
+    color: #f34949;
+    font-weight: 100;
+}

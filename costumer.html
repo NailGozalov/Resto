@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costumer</title>
+    <link rel="stylesheet" href="costumer.css">
+    <script src="https://kit.fontawesome.com/fd16f8a5c5.js" crossorigin="anonymous"></script>
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+   />
+   <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
+
+</head>
+<body>
+
+
+    <div class="all_costumer">
+
+        <div class="bacground_testi">
+            <img class="testi_img" src="img/testi-bg.jpg" alt="Testi" title="Testi">
+        </div>
+
+        <div class="costumer_img_cover">
+            <div class="cover_head">
+                <h3>Testimony</h3>
+                <h2>Happy Customer</h2>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="slide_1">
+                                <i class="fa-solid fa-quote-left slide_icon"></i>
+                                <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At cupiditate, magni nostrum architecto vero voluptate?</h2>
+                                <h3>John Doe</h3>
+                                <div class="slide_end">
+                                    <h3>CEO of</h3>
+                                    <h4>SiteName</h4>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide_2">
+                                <i class="fa-solid fa-quote-left slide_icon"></i>
+                                <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus commodi cumque labore, aperiam quidem voluptas iure!</h2>
+                                <h3>Mary Jane</h3>
+                                <div class="slide_end">
+                                    <h3>STO of</h3>
+                                    <h4>Unidentity Inc</h4>
+                                </div>
+                                
+                            </div>
+                              
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    
+</body>
+</html>

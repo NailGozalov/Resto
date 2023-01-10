@@ -1,0 +1,412 @@
+*{
+    font-family: 'Open Sans',sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    padding: 30px;
+    background-color:#f4ede5;
+}
+
+.parent{
+    background-color: white;
+    padding: 10px 0;
+}
+
+.headbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconmenu{
+    margin-right: 150px;
+}
+
+.iconsearch{
+    margin-left: 150px;
+}
+
+.iconsearch:hover{
+    color: red;
+}
+
+.iconmenu:hover{
+    color: red;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo_link{
+    width: 100px;
+}
+
+.lefthead{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 50px;
+}
+
+.righthead{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 50px;
+    
+}
+
+.navbar_item>a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+
+.navbar_item>a:hover{
+    color: red;
+}
+
+.navbar_item:hover{
+    color: red
+}
+
+.righthead>a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.righthead>a:hover{
+    color: red;
+}
+
+
+.dropdown_menu{
+    position: absolute;
+    display: none;
+    width: 150px;
+    height: 60px;
+    border-bottom: solid 2px red;
+    box-shadow: rgba(200, 97, 97, 0.35) 0px 5px 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown_menu{
+    display: block;
+
+}
+
+.marginitem{
+    margin-bottom: 5px;
+}
+
+.dropdown_menu>a{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.dropdown{
+    position: relative;
+}
+
+
+.team_head{
+    text-align: center; 
+    margin-bottom: 50px;
+    margin-top: 170px;
+}
+
+.team_head>h4{
+    color: #f34949;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.team_head>h2{
+    font-size: 31px;
+}
+
+.photos{
+    display: flex;
+    width: 82%;
+    justify-content: space-between;
+    margin-left: 115px;
+}
+
+.photo1{
+    width: 370px;
+    position: relative;
+}
+
+
+
+.name_drop1{
+    width: 350px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 10px;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.name_drop1>h3{
+    color: rgb(55, 55, 55);
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.photo1:hover .name_drop1{
+    height: 130px;
+}
+
+.photo1:hover .name_drop1{
+    display: block;
+}
+
+.drop_icons{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 115px;
+    margin-top: 30px;
+}
+
+.drop_icons>a{
+    color: inherit;
+}
+
+
+
+.photo2{
+    width: 370px;
+    position: relative;
+}
+
+
+
+.name_drop2{
+    width: 350px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 10px;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.name_drop2>h3{
+    color: rgb(55, 55, 55);
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.photo2:hover .name_drop2{
+    height: 130px;
+}
+
+.photo2:hover .name_drop2{
+    display: block;
+}
+
+
+
+.photo3{
+    width: 370px;
+    position: relative;
+}
+
+
+.name_drop3{
+    width: 350px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 10px;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.name_drop3>h3{
+    color: rgb(55, 55, 55);
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.photo3:hover .name_drop3{
+    height: 130px;
+}
+
+.photo3:hover .name_drop3{
+    display: block;
+}
+
+
+
+
+
+
+
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    width: 85%;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+
+.resto{
+    width: 23%;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.resto>p{
+    color: rgb(104, 104, 104);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+}
+
+.logo2{
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.open_hours{
+    width: 25%;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.open_hours>h4{
+    margin-bottom: 10px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.day{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    color: rgb(104, 104, 104);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+}
+
+.letter{
+    font-size: 20px;
+    width: 25%;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.letter>h4{
+    margin-bottom: 10px;
+    font-family: 'Open Sans',sans-serif;    
+}
+
+.letter>p{
+    color: rgb(104, 104, 104);
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.3em;
+    font-size: 15px;
+}
+
+.email{
+    padding: 5px;
+    font-size: 17px;
+    margin: 10px 0;
+    width: 87%;
+    height: 20%;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.381);
+    margin: 20px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.email:focus{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    outline: rgba(3, 102, 214, 0.3);
+}
+
+.submit{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f34949;
+    border: none;
+    border-radius: 40px;
+    height: 35px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 630;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.submit:hover{
+    background-color: #c23c3c;
+    transition: .5s;
+}
+
+.submit:focus{
+    background-color: #007bff;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    outline: rgba(3, 102, 214, 0.3);
+    transition: .5s;
+}
+
+
+.icons{
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+}
+
+.icons>a{
+    color: black;
+}
+
+.icons>a:hover{
+    color: red;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.end p>a{
+    text-decoration: none;
+    color: #f34949;
+}
+
+
+
